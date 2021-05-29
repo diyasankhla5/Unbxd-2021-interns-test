@@ -1,6 +1,6 @@
-import requests;
-import json;
-import csv;
+import requests
+import json
+import csv
 response=requests.get("https://search.unbxd.io/fb853e3332f2645fac9d71dc63e09ec1/demo-unbxd700181503576558/search?&q=*");
 join_response=response.json();
 number_of_products=join_response["response"]["numberOfProducts"];
